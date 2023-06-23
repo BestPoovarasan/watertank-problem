@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.4.2/echarts.min.js" integrity="sha512-VdqgeoWrVJcsDXFlQEKqE5MyhaIgB9yXUVaiUa8DR2J4Lr1uWcFm+ZH/YnzV5WqgKf4GPyHQ64vVLgzqGIchyw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <h1>Water Tank Problem</h1>
+    <label for="inputs">Input</label>
+    <input type="text"  id="inputs" placeholder="0,4,0,0,0,6,0,6,4,0">
+    <button type="button" class="button" onclick="fetchvalue()">Enter</button>
+    <div class="waterAndWall">
+        <div id="chart1"></div>
+    </div>
+    <div class="Water">
+        <h4 id="waterunit"></h4>
+        <div id="chart2"></div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
